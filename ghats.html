@@ -45,79 +45,9 @@
     <!-- end of preloader -->
     
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-        <!-- Text Logo - Use this if you don't have a graphic logo -->
-        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
+    <!-- Header include -->
+    <div id="header"></div>
 
-        <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="index.html"><img src="/images/logo1.png" alt="alternative"></a>
-        
-        <!-- Mobile Menu Toggle Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-awesome fas fa-bars"></span>
-            <span class="navbar-toggler-awesome fas fa-times"></span>
-        </button>
-        <!-- end of mobile menu toggle button -->
-
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="index.html">HOME <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="index.html#intro">INTRO</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" role="button" aria-haspopup="true" aria-expanded="false">SERVICES</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="boats.html"><span class="item-text">BOATS</span></a>
-                        <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="cabs.html"><span class="item-text">CABS</span></a>
-                    </div>
-                </li>
-               
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="index.html#about">ABOUT</a>
-                </li>
-                 <!-- Dropdown Menu -->          
-                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" role="button" aria-haspopup="true" aria-expanded="false">SIGHTS</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="temples.html"><span class="item-text">TEMPLES</span></a>
-                        <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="ghats.html"><span class="item-text">GHATS</span></a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="homestay.html">HOMESTAY</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="things.html">THINGS TO DO</a>
-                </li>
-
-
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="index.html#contact">CONTACT</a>
-                </li>
-            </ul>
-            <span class="nav-item social-icons">
-                <span class="fa-stack">
-                    <a href="https://www.instagram.com/gurutourism_official/">
-                        <span class="hexagon"></span>
-                        <i class="fab fa-instagram fa-stack-1x"></i>
-                    </a>
-                </span>
-                <span class="fa-stack">
-                    <a href="https://www.facebook.com/share/18gYA3aVSA/?mibextid=wwXIfr">
-                        <span class="hexagon"></span>
-                        <i class="fab fa-facebook-f fa-stack-1x"></i>
-                    </a>
-                </span>
-            </span>
-        </div>
-    </nav> <!-- end of navbar -->
-    <!-- end of navbar -->
 
 
     <!-- Header -->
@@ -139,7 +69,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumbs">
-                        <a th:href="@{/}" style="text-decoration: none;">Home</a><i class="fa fa-angle-double-right"></i><span>Ghats</span>
+                        <a href="index.html" style="text-decoration: none;">Home</a><i class="fa fa-angle-double-right"></i><span>Ghats</span>
                     </div> <!-- end of breadcrumbs -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -152,24 +82,24 @@
     <div class="temple container">
         <div class="row">
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="/images/Dashashwamedh.png" class="card-img-top" alt="...">
+                <div class="card" >
+                    <img src="/images/Dashashwamedh.png" class="card-img-top" alt="..." style="width: 21rem;">
                     <div class="card-body">
                       <h3>The Great Dashashwamedh Ghat</h3>
                     </div>
                   </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="/images/assi.png" class="card-img-top" alt="...">
+                <div class="card" >
+                    <img src="/images/assi.png" class="card-img-top" alt="..." style="width: 21rem;">
                     <div class="card-body">
                         <h3>The Sacred Assi Ghat</h3>
                      </div>
                   </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="/images/darbhanga.png" class="card-img-top" alt="...">
+                <div class="card" >
+                    <img src="/images/darbhanga.png" class="card-img-top" alt="..." style="width: 21rem;">
                     <div class="card-body">
                         <h3>The Majestic Darbhanga Ghat</h3>
                      </div>
@@ -179,24 +109,24 @@
         <br><br>
         <div class="row">
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="/images/chetghat.png" class="card-img-top" alt="...">
+                <div class="card" >
+                    <img src="/images/chetghat.png" class="card-img-top" alt="..." style="width: 21rem;">
                     <div class="card-body">
                         <h3>The Historic Chet Singh Ghat</h3>
                      </div>
                   </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="/images/namo.png" class="card-img-top" alt="...">
+                <div class="card" >
+                    <img src="/images/namo.png" class="card-img-top" alt="..." style="width: 21rem;">
                     <div class="card-body">
                         <h3>The Divine Namo Ghat</h3>
                      </div>
                   </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="/images/manikarnika.png" class="card-img-top" alt="...">
+                <div class="card" >
+                    <img src="/images/manikarnika.png" class="card-img-top" alt="..." style="width: 21rem;">
                     <div class="card-body">
                         <h3>The Eternal Manikarnika Ghat</h3>
                      </div>
@@ -206,24 +136,24 @@
         <br><br>
         <div class="row">
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="/images/scindia.png" class="card-img-top" alt="...">
+                <div class="card" >
+                    <img src="/images/scindia.png" class="card-img-top" alt="..." style="width: 21rem;">
                     <div class="card-body">
                         <h3>The Mystical Scindia Ghat </h3>
                     </div>
                   </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="/images/bhonsale.png" class="card-img-top" alt="...">
+                <div class="card" >
+                    <img src="/images/bhonsale.png" class="card-img-top" alt="..." style="width: 21rem;">
                     <div class="card-body">
                         <h3>The Regal Bhonsale Ghat</h3>
                      </div>
                   </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="/images/panchganga.png" class="card-img-top" alt="...">
+                <div class="card" >
+                    <img src="/images/panchganga.png" class="card-img-top" alt="..." style="width: 21rem;">
                     <div class="card-body">
                         <h3>The Sacred Panchganga Ghat</h3>
                      </div>
@@ -233,24 +163,24 @@
         <br><br>
         <div class="row">
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="/images/manmandir.png" class="card-img-top" alt="...">
+                <div class="card">
+                    <img src="/images/manmandir.png" class="card-img-top" alt="..."  style="width: 21rem;">
                     <div class="card-body">
                         <h3>The Astronomical Manmandir Ghat </h3>
                     </div>
                   </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="/images/tulsi.png" class="card-img-top" alt="...">
+                <div class="card" >
+                    <img src="/images/tulsi.png" class="card-img-top" alt="..." style="width: 21rem;">
                     <div class="card-body">
                         <h3>The Poetic Tulsi Ghat</h3>
                      </div>
                   </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="/images/kedar.png" class="card-img-top" alt="...">
+                <div class="card" >
+                    <img src="/images/kedar.png" class="card-img-top" alt="..." style="width: 21rem;">
                     <div class="card-body">
                         <h3>The Holy Kedar Ghat</h3>
                     </div>
@@ -260,70 +190,23 @@
     </div>
     <br>
     <br>
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="text-container about">
-                        <h4>Few Words About GuruTourism</h4>
-                        <p class="white">We're Passionate About Guiding You Through the Wonders of Banaras.
-                            We provide expert-guided tours, customized travel experiences, and deep insights into
-                             historical landmarks, temples, and ghats.
-                        </p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-md-3">
-                    <div class="text-container">
-                        <h4>Links</h4>
-                        <ul class="list-unstyled li-space-lg white">
-                            <li>
-                                <a class="white" href="homestay.html">Homestay</a>
-                            </li>
-                            <li>
-                                <a class="white" href="things.html">Things to do</a>
-                            </li>
-                            <li>
-                                <a class="white" href="https://www.instagram.com/gurutourism_official/">Instagram</a>
-                            </li>
-                        </ul>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-md-3" id="contact1">
-                    <div class="text-container">
-                        <h4>Contact us</h4>
-                        <ul class="list-unstyled li-space-lg">
-                            <li>
-                                <i class="fas fa-phone"></i>
-                                <a href="tel:+918005200594">+91 8005200594</a>
-                            </li>
-                            <li>
-                                <i class="fas fa-phone"></i>
-                                <a href="tel:+919621305266">+91 9621305266</a>
-                            </li>
-                            <li>
-                                <i class="fas fa-envelope"></i>
-                                <a href="mailto:gurutourismofficial@gmail.com">gurutourismofficial@gmail.com</a>
-                            </li>
-                        </ul>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of footer -->  
-    <!-- end of footer -->
+   <!-- Footer include -->
+    <div id="footer"></div>
 
-
-    <!-- Copyright -->
-    <div class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="p-small">Copyright © 2024</p>
-                </div> <!-- end of col -->
-            </div> <!-- enf of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of copyright --> 
-    <!-- end of copyright -->
+    <!-- Load header & footer dynamically -->
+    <script>
+        async function loadComponent(id, file) {
+            try {
+                const response = await fetch(file);
+                const text = await response.text();
+                document.getElementById(id).innerHTML = text;
+            } catch (err) {
+                console.error(`Error loading ${file}:`, err);
+            }
+        }
+        loadComponent("header", "header.html");
+        loadComponent("footer", "footer.html");
+    </script>
     
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
